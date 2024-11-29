@@ -1,0 +1,122 @@
+.card {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid yellow;
+    text-align: center;
+}
+
+.title h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.wrapper {
+    margin-top: 50px;
+}
+
+.title input {
+    width: 269px;
+    height: 46px;
+    padding: 11px 16px 11px 16px;
+    border-radius: 8px;
+    border: 1px solid #cacaca;
+    margin-bottom: 8px;
+}
+
+.btn {
+    margin-top: 116px;
+    width: 100%;
+    height: 46px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #a020f0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    border: 5px solid #a020f0;
+    color: #000;
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.btn-confirm {
+    margin-top: 60px;
+    width: 100%;
+    height: 46px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #a020f0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-confirm:hover {
+    border: 5px solid #a020f0;
+    color: #000;
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.apple-chek,
+.banana-chek,
+.orange {
+    display: flex;
+    margin-left: 100px;
+}
+
+#chek-input,
+#banana-chek,
+#orange {
+    height: 30px;
+    width: 30px;
+}
+
+.btn-fruits {
+    margin-top: 40px;
+    width: 100%;
+    height: 46px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #a020f0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-fruits:hover {
+    border: 5px solid #a020f0;
+    color: #000;
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.btn-email {
+    margin-top: 100px;
+    width: 100%;
+    height: 46px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #a020f0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-email:hover {
+    border: 5px solid #a020f0;
+    color: #000;
+    transition: 0.3s;
+    background-color: #fff;
+}
